@@ -1,0 +1,6 @@
+{
+  "mappings": {
+    "wp-content/themes/wp-theme/": "./wp/wp-theme/"
+  },
+  "port": 8000
+}

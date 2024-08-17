@@ -1,4 +1,5 @@
-  <footer>
+  </main>
+  <footer class="footer">
     <p>フッター</p>
     <nav>
       <ul>

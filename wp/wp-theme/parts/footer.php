@@ -10,6 +10,6 @@
       </ul>
     </nav>
   </footer>
-  <script type="module" src="<?= VITE_URL ?>/src/assets/app.ts"></script>
+  <script type="module" src="<?= VITE_URL ?>/src/assets/ts/app.ts"></script>
 </body>
 </html>

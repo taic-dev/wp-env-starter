@@ -2,5 +2,8 @@
   "mappings": {
     "wp-content/themes/wp-theme/": "./wp/wp-theme/"
   },
-  "port": 8000
+  "port": 8000,
+  "config": {
+    "VITE_URL": "http://localhost:3000"
+  }
 }

@@ -1,6 +1,13 @@
 {
+  "core": "https://ja.wordpress.org/wordpress-6.5-ja.zip",
+  "phpVersion": "8.1",
   "mappings": {
-    "wp-content/themes/wp-theme/": "./wp/wp-theme/"
+    "wp-content/themes/wp-theme/": "./wp/wp-theme/",
+    "wp-content/plugins": "./wp/plugins",
+    "sql": "./wp/sql",
+    "wp-content/uploads": "./wp/uploads",
+    "wp-cli.local.yml": "./wp/wp-cli.local.yml",
+    "php.ini": "./wp/php.ini"
   },
   "port": 8000,
   "config": {

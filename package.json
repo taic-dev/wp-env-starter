@@ -12,5 +12,11 @@
     "@wordpress/env": "^10.3.0",
     "typescript": "^5.2.2",
     "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "sass": "^1.77.8",
+    "vite-plugin-live-reload": "^3.0.3",
+    "vite-plugin-sass-glob-import": "^3.0.2",
+    "vite-plugin-static-copy": "^1.0.6"
   }
 }

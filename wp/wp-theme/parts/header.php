@@ -8,15 +8,15 @@
 </head>
 <style> html { margin: 0 !important; } </style>
 <body>
-  <header>
-    <h1>ヘッダー</h1>
+  <header class="header">
+    <h1 class="header__logo">WP-TEMPLATE</h1>
     <nav>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul class="header__list">
+        <li class="header__item"><a href="#">ABOUT</a></li>
+        <li class="header__item"><a href="#">COMPANY</a></li>
+        <li class="header__item"><a href="#">NEWS</a></li>
+        <li class="header__item"><a href="#">RECRUIT</a></li>
       </ul>
     </nav>
   </header>
+  <main>

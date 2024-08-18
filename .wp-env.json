@@ -1,13 +1,16 @@
 {
-  "core": "https://ja.wordpress.org/wordpress-6.5-ja.zip",
+  "core": "https://ja.wordpress.org/latest-ja.zip",
   "phpVersion": "8.1",
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.84.zip"
+  ],
   "mappings": {
     "wp-content/themes/wp-theme/": "./wp/wp-theme/",
     "wp-content/plugins": "./wp/plugins",
-    "sql": "./wp/sql",
     "wp-content/uploads": "./wp/uploads",
-    "wp-cli.local.yml": "./wp/wp-cli.local.yml",
-    "php.ini": "./wp/php.ini"
+    "sql": "./wp/sql",
+    "wp-cli.local.yml": "./wp",
+    "php.ini": "./wp"
   },
   "port": 8000,
   "config": {

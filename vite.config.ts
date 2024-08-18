@@ -39,6 +39,13 @@ export default defineConfig({
       }
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `$base_url: ${process.env.NODE_ENV === "development" ? "'http://localhost:3000/src/'" : "'/wp-content/themes/wp-template/'"};`,
+      },
+    },
+  },
   server: {
     port: 3000
   },

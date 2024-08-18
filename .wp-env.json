@@ -1,6 +1,19 @@
 {
+  "core": "https://ja.wordpress.org/latest-ja.zip",
+  "phpVersion": "8.1",
+  "plugins": [
+    "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.84.zip"
+  ],
   "mappings": {
-    "wp-content/themes/wp-theme/": "./wp/wp-theme/"
+    "wp-content/themes/wp-theme/": "./wp/wp-theme/",
+    "wp-content/plugins": "./wp/plugins",
+    "wp-content/uploads": "./wp/uploads",
+    "sql": "./wp/sql",
+    "wp-cli.local.yml": "./wp",
+    "php.ini": "./wp"
   },
-  "port": 8000
+  "port": 8000,
+  "config": {
+    "VITE_URL": "http://localhost:3000"
+  }
 }

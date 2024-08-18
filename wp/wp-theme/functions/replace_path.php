@@ -1,2 +1,2 @@
 <?php
-  var_dump(IS_TYPE);
+  // var_dump(IS_TYPE);

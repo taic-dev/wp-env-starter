@@ -1,5 +1,5 @@
 <?= get_template_part('parts/header') ?>
 
-<h1>WordPress Theme!!!</h1>
+<section class="home-fv"></section>
 
 <?= get_template_part('parts/footer') ?>

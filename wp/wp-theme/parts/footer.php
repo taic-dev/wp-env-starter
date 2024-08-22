@@ -1,4 +1,5 @@
-  <footer>
+</main>
+  <footer class="footer">
     <p>フッター</p>
     <nav>
       <ul>
@@ -10,6 +11,7 @@
       </ul>
     </nav>
   </footer>
-  <script type="module" src="<?= VITE_URL ?>/src/assets/app.ts"></script>
+  <script type="module" src="<?= js_path('app.ts') ?>"></script>
+  <?php wp_footer(); ?>
 </body>
 </html>

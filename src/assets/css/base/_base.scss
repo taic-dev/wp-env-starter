@@ -1,0 +1,44 @@
+html {
+  font-size: vw(16);
+}
+
+body {
+  font-size: rem(16);
+  color: $color-black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+svg {
+  width: 100%;
+  height: auto;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+[data-only-show="pc"] {
+  display: block;
+
+  @include sp {
+    display: none !important;
+  }
+}
+
+[data-only-show="sp"] {
+  display: none;
+
+  @include sp {
+    display: block !important;
+  }
+}
+
+footer {
+  color: $color-black;
+  background-color: $color-white;
+}

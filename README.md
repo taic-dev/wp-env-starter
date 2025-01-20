@@ -9,7 +9,7 @@ This repository provides a starter template for WordPress theme development usin
 - **SASS**: Efficient styling with support for glob imports.
 - **Live Reload**: Real-time updates during development.
 - **Static Copy Plugin**: Automates copying static assets during the build process.
-- **`wp-env`**: A Docker-based WordPress local development environment.
+- **wp-env**: A Docker-based WordPress local development environment.
 
 ## Requirements
 

@@ -11,8 +11,6 @@ This repository provides a starter template for WordPress theme development usin
 - **Static Copy Plugin**: Automates copying static assets during the build process.
 - **`wp-env`**: A Docker-based WordPress local development environment.
 
----
-
 ## Requirements
 
 Ensure the following are installed on your system:
@@ -20,8 +18,6 @@ Ensure the following are installed on your system:
 - [Node.js](https://nodejs.org/) (version 16+ recommended)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Docker](https://www.docker.com/) (required for `wp-env`)
-
----
 
 ## Getting Started
 
@@ -72,8 +68,6 @@ Ensure the following are installed on your system:
 
    This command previews the production build locally.
 
----
-
 ## Scripts
 
 The `package.json` includes the following scripts:
@@ -82,8 +76,6 @@ The `package.json` includes the following scripts:
 - **`build`**: Compile TypeScript and build assets with Vite.
 - **`preview`**: Preview the production build.
 - **`wp-env`**: Manage the WordPress local development environment.
-
----
 
 ## Configuration
 
@@ -102,27 +94,19 @@ Customize the `.wp-env.json` file to configure the WordPress environment. Exampl
 
 Modify `vite.config.ts` to customize the build process, plugins, or other configurations.
 
----
-
 ## Troubleshooting
 
 - Ensure Docker is running before starting the `wp-env` environment.
 - Check for correct Node.js and npm versions if you encounter dependency errors.
 - Refer to the [wp-env documentation](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/) for environment-specific issues.
 
----
-
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
 
----
-
 ## Contributing
 
 Feel free to open issues or submit pull requests to enhance this template. Contributions are welcome!
-
----
 
 Happy Coding!
 
